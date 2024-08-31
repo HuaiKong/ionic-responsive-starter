@@ -1,0 +1,7 @@
+{
+  "name": "ionic-responsive-starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
