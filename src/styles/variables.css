@@ -1,0 +1,33 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+:root {
+  --layout-width: 100rem;
+  --navbar-height: 2.75rem;
+
+  --ion-text-color: #000;
+  --ion-background-color: #fff;
+  --ion-border-color: rgba(0, 0, 0, 0.1);
+  --background-link-active: 0, 0, 0, 0.05;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-border-color: var(--ion-background-color-step-150);
+    --background-link-active: 255, 255, 255, 0.1;
+  }
+}
+
+@media screen(md) {
+  :root {
+    --sidebar-width: 5rem;
+  }
+  .ion-page > ion-content:first-child {
+    --padding-top: var(--navbar-height);
+  }
+}
+
+@media screen(lg) {
+  :root {
+    --sidebar-width: 17rem;
+  }
+}

@@ -1,0 +1,47 @@
+@tailwind utilities;
+
+@layer utilities {
+  .max-w-layout {
+    max-width: var(--layout-width);
+  }
+
+  .grow-h {
+    flex-grow: 1;
+    min-height: 0;
+  }
+  .grow-w {
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  .border {
+    border-style: solid;
+  }
+  .border-t {
+    border-top-style: solid;
+  }
+  .border-r {
+    border-right-style: solid;
+  }
+  .border-b {
+    border-bottom-style: solid;
+  }
+  .border-l {
+    border-left-style: solid;
+  }
+  .border-color {
+    border-color: var(--ion-border-color);
+  }
+
+  .color-primary {
+    color: var(--ion-color-primary);
+  }
+
+  .bg-link {
+    background-color: rgba(var(--background-link-active));
+  }
+}
+
+.w-sidebar {
+  width: var(--sidebar-width);
+}
